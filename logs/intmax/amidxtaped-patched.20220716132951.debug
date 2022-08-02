@@ -1,0 +1,84 @@
+Sat Jul 16 13:29:51.861872430 2022: pid 27857: thd-0x802d4ec00: amidxtaped: pid 27857 ruid 140 euid 140 version 3.5.1.git.fb05ba64: start at Sat Jul 16 13:29:51 2022
+Sat Jul 16 13:29:51.906543137 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << FEATURES=ffffffff9efefbfffffffffffffff3fffbf79f00
+Sat Jul 16 13:29:51.906785056 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << CONFIG=intmax
+Sat Jul 16 13:29:51.945922062 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << LABEL=intmax:Intmax-01:1
+Sat Jul 16 13:29:51.945966413 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << FSF=1
+Sat Jul 16 13:29:51.946001608 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << HEADER
+Sat Jul 16 13:29:51.946056734 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << DEVICE=chg-disk:/mnt/tank/amanda/intmax/vtapes
+Sat Jul 16 13:29:51.946088927 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << HOST=^localhost$
+Sat Jul 16 13:29:51.946115570 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << DISK=^tank$
+Sat Jul 16 13:29:51.946150925 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << DATESTAMP=20220716005226
+Sat Jul 16 13:29:51.946177024 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << END
+Sat Jul 16 13:29:51.946231376 2022: pid 27857: thd-0x802d4ec00: amidxtaped: their_features have fe_amrecover_stream_state
+Sat Jul 16 13:29:51.946317004 2022: pid 27857: thd-0x802d4ec00: amidxtaped: reading config file /usr/local/etc/amanda/intmax/amanda.conf
+Sat Jul 16 13:29:51.946963353 2022: pid 27857: thd-0x802d4ec00: amidxtaped: pid 27857 ruid 140 euid 140 version 3.5.1.git.fb05ba64: rename at Sat Jul 16 13:29:51 2022
+Sat Jul 16 13:29:51.947580747 2022: pid 27857: thd-0x802d4ec00: amidxtaped: beginning trace log: /amanda/intmax/state/log/log.20220716132951.0
+Sat Jul 16 13:29:51.947994387 2022: pid 27857: thd-0x802d4ec00: amidxtaped: new Amanda::Changer::Error: type='fatal', message='Storage 'chg-disk:/mnt/tank/amanda/intmax/vtapes' not found'
+Sat Jul 16 13:29:51.955701562 2022: pid 27857: thd-0x802d4ec00: amidxtaped: chg-disk: Dir /mnt/tank/amanda/intmax/vtapes
+Sat Jul 16 13:29:51.955738066 2022: pid 27857: thd-0x802d4ec00: amidxtaped: chg-disk: Using statefile '/mnt/tank/amanda/intmax/vtapes/state'
+Sat Jul 16 13:29:51.955883600 2022: pid 27857: thd-0x802d4ec00: amidxtaped: chg-disk: Dir /mnt/tank/amanda/intmax/vtapes
+Sat Jul 16 13:29:51.955899227 2022: pid 27857: thd-0x802d4ec00: amidxtaped: chg-disk: Using statefile '/mnt/tank/amanda/intmax/vtapes/state'
+Sat Jul 16 13:29:51.960218571 2022: pid 27857: thd-0x802d4ec00: amidxtaped: chg-disk: Dir /mnt/tank/amanda/intmax/vtapes
+Sat Jul 16 13:29:51.960247190 2022: pid 27857: thd-0x802d4ec00: amidxtaped: chg-disk: Using statefile '/mnt/tank/amanda/intmax/vtapes/state'
+Sat Jul 16 13:29:51.960523948 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Amanda::Recovery::Clerk: loading volume 'Intmax-01'
+Sat Jul 16 13:29:51.960652541 2022: pid 27857: thd-0x802d4ec00: amidxtaped: find_volume labeled 'Intmax-01'
+Sat Jul 16 13:29:51.961684199 2022: pid 27857: thd-0x802d4ec00: amidxtaped: parse_inventory: load slot 2 with label 'Intmax-01'
+Sat Jul 16 13:29:51.961789755 2022: pid 27857: thd-0x802d4ec00: amidxtaped: /usr/local/lib/perl5/site_perl/Amanda/Recovery/Scan.pm:307:info:1200000 slot 2
+Sat Jul 16 13:29:51.962401082 2022: pid 27857: thd-0x802d4ec00: amidxtaped: dir_name: /mnt/tank/amanda/intmax/vtapes/slot2/
+Sat Jul 16 13:29:51.963320416 2022: pid 27857: thd-0x802d4ec00: amidxtaped: /usr/local/lib/perl5/site_perl/Amanda/Recovery/Scan.pm:459:info:1200001 Intmax-01
+Sat Jul 16 13:29:51.963422135 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ignoring spurious Amanda::Recovery::Scan abort call
+Sat Jul 16 13:29:51.963958834 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Amanda::Recovery::Clerk: successfully located first part for recovery
+Sat Jul 16 13:29:51.982957060 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Building type SPLIT_FILE header of 128-32768 bytes with name='localhost' disk='tank' dumplevel=0 and blocksize=0
+Sat Jul 16 13:29:51.983269360 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Building type FILE header of 128-32768 bytes with name='localhost' disk='tank' dumplevel=0 and blocksize=32768
+Sat Jul 16 13:29:51.983327679 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL >> HEADER-SEND-SIZE 1076
+Sat Jul 16 13:29:51.983665846 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << HEADER-READY
+Sat Jul 16 13:29:52.552119809 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << HEADER-DONE
+Sat Jul 16 13:29:52.552260236 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL >> STATE-SEND
+Sat Jul 16 13:29:52.552517124 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << STATE-READY
+Sat Jul 16 13:29:52.601527007 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << STATE-DONE
+Sat Jul 16 13:29:52.601638493 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL >> USE-DAR YES
+Sat Jul 16 13:29:52.601873114 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << USE-DAR YES
+Sat Jul 16 13:29:52.644433963 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << AVAIL-DATAPATH AMANDA
+Sat Jul 16 13:29:52.644836385 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Starting <Xfer@0x803fde840 (<XferSourceRecovery@0x803dd1000> -> <XferDestFd@0x804155820>)>
+Sat Jul 16 13:29:52.644890818 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Final linkage: <XferSourceRecovery@0x803dd1000> -(PULL_BUFFER)-> <XferElementGlue@0x804165010> -(WRITEFD)-> <XferDestFd@0x804155820>
+Sat Jul 16 13:29:52.644928761 2022: pid 27857: thd-0x802d4ec00: amidxtaped: setup_impl: 3, 2
+Sat Jul 16 13:29:52.645090145 2022: pid 27857: thd-0x802d4ec00: amidxtaped: xfer_queue_message: MSG: <XMsg@0x803d7c520 type=XMSG_READY elt=<XferSourceRecovery@0x803dd1000> version=0>
+Sat Jul 16 13:29:52.645183548 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL >> USE-DATAPATH AMANDA
+Sat Jul 16 13:29:52.645207640 2022: pid 27857: thd-0x80166fe40: amidxtaped: pull_and_write
+Sat Jul 16 13:29:52.646079893 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << DATAPATH-OK
+Sat Jul 16 13:29:52.646159499 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL >> DATA-SEND
+Sat Jul 16 13:29:52.646363845 2022: pid 27857: thd-0x802d4ec00: amidxtaped: CTL << DATA-READY
+Sat Jul 16 13:29:52.646471602 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Amanda::Recovery::Clerk: starting recovery
+Sat Jul 16 13:29:52.647712089 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Amanda::Recovery::Clerk: reading file 1 on 'Intmax-01'
+Sat Jul 16 13:29:52.688926693 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ctl line: DAR 1099512152064:1100585894399
+Sat Jul 16 13:29:52.689085805 2022: pid 27857: thd-0x802d4ec00: amidxtaped: XS _wrap_xfer_set_offset_and_size 1099512152064 1073742336
+Sat Jul 16 13:29:52.689909571 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Amanda::Recovery::Clerk: reading file 1 on 'Intmax-01'
+Sat Jul 16 13:29:52.690196150 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ctl line: DAR-DONE
+Sat Jul 16 13:29:55.641305643 2022: pid 27857: thd-0x80166fe40: amidxtaped: xfer_queue_message: MSG: <XMsg@0x804191000 type=XMSG_CRC elt=<XferSourceRecovery@0x803dd1000> version=0>
+Sat Jul 16 13:29:55.641702320 2022: pid 27857: thd-0x802d4ec00: amidxtaped: source_crc: 362489ee:1073742336
+Sat Jul 16 13:29:55.641744062 2022: pid 27857: thd-0x80166fe40: amidxtaped: xfer_queue_message: MSG: <XMsg@0x804191070 type=XMSG_SEGMENT_DONE elt=<XferSourceRecovery@0x803dd1000> version=0>
+Sat Jul 16 13:29:55.641924142 2022: pid 27857: thd-0x802d4ec00: amidxtaped: Amanda::Recovery::Clerk: done reading segment from file
+Sat Jul 16 13:29:55.642002003 2022: pid 27857: thd-0x80166fe40: amidxtaped: sending XMSG_CRC message 0x804155820
+Sat Jul 16 13:29:55.642014504 2022: pid 27857: thd-0x80166fe40: amidxtaped: pull_and_write CRC: 362489ee      size 1073742336
+Sat Jul 16 13:29:55.642036831 2022: pid 27857: thd-0x80166fe40: amidxtaped: xfer_queue_message: MSG: <XMsg@0x8041910e0 type=XMSG_CRC elt=<XferDestFd@0x804155820> version=0>
+Sat Jul 16 13:29:55.642072902 2022: pid 27857: thd-0x80166fe40: amidxtaped: xfer_queue_message: MSG: <XMsg@0x804191150 type=XMSG_DONE elt=<XferElementGlue@0x804165010> version=0>
+Sat Jul 16 13:29:55.642308441 2022: pid 27857: thd-0x802d4ec00: amidxtaped: dest_crc: 362489ee:1073742336
+Sat Jul 16 13:29:55.642733660 2022: pid 27857: thd-0x802d4ec00: amidxtaped: /usr/local/lib/perl5/site_perl/Amanda/Restore.pm:1913:info:4900012 1048576 kb
+Sat Jul 16 13:29:55.644896215 2022: pid 27857: thd-0x802d4ec00: amidxtaped: exiting with 0
+Sat Jul 16 13:29:55.644966675 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_utime   : 1
+Sat Jul 16 13:29:55.644982353 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_stime   : 0
+Sat Jul 16 13:29:55.644991209 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_maxrss  : 49588
+Sat Jul 16 13:29:55.645009401 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_ixrss   : 1616
+Sat Jul 16 13:29:55.645017852 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_idrss   : 808
+Sat Jul 16 13:29:55.645025039 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_isrss   : 25856
+Sat Jul 16 13:29:55.645032421 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_minflt  : 9114
+Sat Jul 16 13:29:55.645039819 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_majflt  : 69
+Sat Jul 16 13:29:55.645051292 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_nswap   : 0
+Sat Jul 16 13:29:55.645059045 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_inblock : 0
+Sat Jul 16 13:29:55.645066092 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_oublock : 78
+Sat Jul 16 13:29:55.645073137 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_msgsnd  : 0
+Sat Jul 16 13:29:55.645079684 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_msgrcv  : 0
+Sat Jul 16 13:29:55.645086322 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_nsignals: 0
+Sat Jul 16 13:29:55.645096816 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_nvcsw   : 32803
+Sat Jul 16 13:29:55.645103684 2022: pid 27857: thd-0x802d4ec00: amidxtaped: ru_nivcsw  : 7522
+Sat Jul 16 13:29:55.645339143 2022: pid 27857: thd-0x802d4ec00: amidxtaped: pid 27857 finish time Sat Jul 16 13:29:55 2022

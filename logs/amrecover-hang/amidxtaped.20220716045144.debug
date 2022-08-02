@@ -1,0 +1,58 @@
+Sat Jul 16 04:51:44.368820671 2022: pid 18801: thd-0x55f111d56600: amidxtaped: pid 18801 ruid 34 euid 34 version 3.5.1: start at Sat Jul 16 04:51:44 2022
+Sat Jul 16 04:51:44.371551766 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << FEATURES=ffffffff9efefbfffffffffffffff3fffbf71f
+Sat Jul 16 04:51:44.372021908 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << CONFIG=singledrive
+Sat Jul 16 04:51:44.372090639 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << LABEL=singledrive:Singledrive-01:1;singledrive:Singledrive-02:1
+Sat Jul 16 04:51:44.372112399 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << FSF=1
+Sat Jul 16 04:51:44.372132779 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << HEADER
+Sat Jul 16 04:51:44.372169209 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << DEVICE=chg-single:tape:/dev/st0
+Sat Jul 16 04:51:44.372196439 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << HOST=^localhost$
+Sat Jul 16 04:51:44.372219190 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << DISK=^tank$
+Sat Jul 16 04:51:44.372249730 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << DATESTAMP=20220716044737
+Sat Jul 16 04:51:44.372266350 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << END
+Sat Jul 16 04:51:44.372302110 2022: pid 18801: thd-0x55f111d56600: amidxtaped: their_features have fe_amrecover_stream_state
+Sat Jul 16 04:51:44.372395331 2022: pid 18801: thd-0x55f111d56600: amidxtaped: reading config file /etc/amanda/singledrive/amanda.conf
+Sat Jul 16 04:51:44.372852743 2022: pid 18801: thd-0x55f111d56600: amidxtaped: pid 18801 ruid 34 euid 34 version 3.5.1: rename at Sat Jul 16 04:51:44 2022
+Sat Jul 16 04:51:44.373272835 2022: pid 18801: thd-0x55f111d56600: amidxtaped: beginning trace log: /amanda/singledrive/state/log/log.20220716045144.0
+Sat Jul 16 04:51:44.373648947 2022: pid 18801: thd-0x55f111d56600: amidxtaped: new Amanda::Changer::Error: type='fatal', message='Storage 'chg-single:tape:/dev/st0' not found'
+Sat Jul 16 04:51:44.386791038 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Amanda::Recovery::Clerk: loading volume 'Singledrive-01'
+Sat Jul 16 04:51:44.386934348 2022: pid 18801: thd-0x55f111d56600: amidxtaped: find_volume labeled 'Singledrive-01'
+Sat Jul 16 04:51:44.386991039 2022: pid 18801: thd-0x55f111d56600: amidxtaped: parse_inventory: load slot 1
+Sat Jul 16 04:51:44.387079109 2022: pid 18801: thd-0x55f111d56600: amidxtaped: /usr/lib/x86_64-linux-gnu/amanda/perl/Amanda/Recovery/Scan.pm:420:info:1200000 slot 1
+Sat Jul 16 04:51:44.699768510 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Device is in variable block size
+Sat Jul 16 04:51:44.702348273 2022: pid 18801: thd-0x55f111d56600: amidxtaped: /usr/lib/x86_64-linux-gnu/amanda/perl/Amanda/Recovery/Scan.pm:459:info:1200001 Singledrive-01
+Sat Jul 16 04:51:44.702506924 2022: pid 18801: thd-0x55f111d56600: amidxtaped: ignoring spurious Amanda::Recovery::Scan abort call
+Sat Jul 16 04:51:44.704394184 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Amanda::Recovery::Clerk: successfully located first part for recovery
+Sat Jul 16 04:51:44.736804627 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Building type SPLIT_FILE header of 128-32768 bytes with name='localhost' disk='tank' dumplevel=0 and blocksize=0
+Sat Jul 16 04:51:44.737102939 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Building type FILE header of 128-32768 bytes with name='localhost' disk='tank' dumplevel=0 and blocksize=32768
+Sat Jul 16 04:51:44.737144689 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL >> HEADER-SEND-SIZE 591
+Sat Jul 16 04:51:44.737437790 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << HEADER-READY
+Sat Jul 16 04:51:48.754637347 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << HEADER-DONE
+Sat Jul 16 04:51:48.754817077 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL >> STATE-SEND
+Sat Jul 16 04:51:48.755092909 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << STATE-READY
+Sat Jul 16 04:51:48.755626121 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << STATE-DONE
+Sat Jul 16 04:51:48.755688792 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL >> USE-DAR YES
+Sat Jul 16 04:51:48.755879423 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << USE-DAR NO
+Sat Jul 16 04:51:48.755958004 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << AVAIL-DATAPATH AMANDA
+Sat Jul 16 04:51:48.756205915 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Starting <Xfer@0x55f112266240 (<XferSourceRecovery@0x55f111f39000> -> <XferDestFd@0x55f112265820>)>
+Sat Jul 16 04:51:48.756240305 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Final linkage: <XferSourceRecovery@0x55f111f39000> -(PULL_BUFFER)-> <XferElementGlue@0x55f112267030> -(WRITEFD)-> <XferDestFd@0x55f112265820>
+Sat Jul 16 04:51:48.756256035 2022: pid 18801: thd-0x55f111d56600: amidxtaped: setup_impl: 3, 2
+Sat Jul 16 04:51:48.756387845 2022: pid 18801: thd-0x55f111d56600: amidxtaped: xfer_queue_message: MSG: <XMsg@0x55f1122669a0 type=XMSG_READY elt=<XferSourceRecovery@0x55f111f39000> version=0>
+Sat Jul 16 04:51:48.756427966 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL >> USE-DATAPATH AMANDA
+Sat Jul 16 04:51:48.756500416 2022: pid 18801: thd-0x55f110be5f60: amidxtaped: pull_and_write
+Sat Jul 16 04:51:48.757320101 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << DATAPATH-OK
+Sat Jul 16 04:51:48.757422832 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL >> DATA-SEND
+Sat Jul 16 04:51:48.757635323 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL << DATA-READY
+Sat Jul 16 04:51:48.757719453 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Amanda::Recovery::Clerk: starting recovery
+Sat Jul 16 04:51:48.759222021 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Amanda::Recovery::Clerk: reading file 1 on 'Singledrive-01'
+Sat Jul 16 04:51:49.656818596 2022: pid 18801: thd-0x55f110be5f60: amidxtaped: Device tape:/dev/st0 error = 'EOF'
+Sat Jul 16 04:51:49.656885376 2022: pid 18801: thd-0x55f110be5f60: amidxtaped: xfer_queue_message: MSG: <XMsg@0x7f4a8c001d70 type=XMSG_CRC elt=<XferSourceRecovery@0x55f111f39000> version=0>
+Sat Jul 16 04:51:49.656911426 2022: pid 18801: thd-0x55f110be5f60: amidxtaped: xfer_queue_message: MSG: <XMsg@0x7f4a8c002f90 type=XMSG_PART_DONE elt=<XferSourceRecovery@0x55f111f39000> version=0>
+Sat Jul 16 04:51:49.657552520 2022: pid 18801: thd-0x55f111d56600: amidxtaped: source_crc: b3f93307:94371840
+Sat Jul 16 04:51:49.657677969 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Amanda::Recovery::Clerk: done reading file 1 on 'Singledrive-01'
+Sat Jul 16 04:51:49.658918627 2022: pid 18801: thd-0x55f111d56600: amidxtaped: Amanda::Recovery::Clerk: loading volume 'Singledrive-02'
+Sat Jul 16 04:51:49.659149797 2022: pid 18801: thd-0x55f111d56600: amidxtaped: find_volume labeled 'Singledrive-02'
+Sat Jul 16 04:51:49.659417169 2022: pid 18801: thd-0x55f111d56600: amidxtaped: new Amanda::Changer::Error: type='failed', reason='notfound', message='Source Volume 'Singledrive-02' not found'
+Sat Jul 16 04:51:49.659597220 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL >> MESSAGE Source Volume 'Singledrive-02' not found
+Sat Jul 16 04:51:49.659680131 2022: pid 18801: thd-0x55f111d56600: amidxtaped: CTL >> FEEDME Singledrive-02
+Sat Jul 16 04:52:03.771408543 2022: pid 18801: thd-0x55f111d56600: amidxtaped: /usr/lib/x86_64-linux-gnu/amanda/perl/Amanda/Restore.pm:1719:info:4900000 92160 kb
+Sat Jul 16 04:52:08.035351609 2022: pid 18801: thd-0x55f111d56600: amidxtaped: ctl line: TP h-igetp:dvs

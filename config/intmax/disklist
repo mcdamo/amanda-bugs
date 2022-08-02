@@ -1,0 +1,6 @@
+localhost tank /mnt/tank/backup/intmax {
+        dt-global
+        dt-local
+        include append "./*"
+}
+

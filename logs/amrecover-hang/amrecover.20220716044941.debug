@@ -1,0 +1,171 @@
+Sat Jul 16 04:49:41.586774796 2022: pid 16437: thd-0x557a3644c800: amrecover: pid 16437 ruid 0 euid 0 version 3.5.1: start at Sat Jul 16 04:49:41 2022
+Sat Jul 16 04:49:41.587188448 2022: pid 16437: thd-0x557a3644c800: amrecover: config_overrides: conf singledrive
+Sat Jul 16 04:49:41.587646831 2022: pid 16437: thd-0x557a3644c800: amrecover: pid 16437 ruid 0 euid 0 version 3.5.1: rename at Sat Jul 16 04:49:41 2022
+Sat Jul 16 04:49:41.587692832 2022: pid 16437: thd-0x557a3644c800: amrecover: security_getdriver(name=bsdtcp) returns 0x7f58a63f0f80
+Sat Jul 16 04:49:41.588270126 2022: pid 16438: thd-0x557a3644c800: amrecover: Executing: /usr/bin/lsb_release '--id' '-s'
+Sat Jul 16 04:49:41.641593807 2022: pid 16454: thd-0x557a3644c800: amrecover: Executing: /usr/bin/lsb_release '--description' '-s'
+Sat Jul 16 04:49:41.681143950 2022: pid 16437: thd-0x557a36431700: amrecover: security_handleinit(handle=0x7f58a0001c50, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:49:41.681491153 2022: pid 16437: thd-0x557a36431700: amrecover: security_streaminit(stream=0x7f58a0003a20, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:49:41.681798805 2022: pid 16437: thd-0x557a36431700: amrecover: connect_port: Skip port 512: owned by exec.
+Sat Jul 16 04:49:41.681825816 2022: pid 16437: thd-0x557a36431700: amrecover: connect_port: Skip port 513: owned by login.
+Sat Jul 16 04:49:41.681847526 2022: pid 16437: thd-0x557a36431700: amrecover: connect_port: Skip port 514: owned by shell.
+Sat Jul 16 04:49:41.681868275 2022: pid 16437: thd-0x557a36431700: amrecover: connect_port: Skip port 515: owned by printer.
+Sat Jul 16 04:49:41.681925205 2022: pid 16437: thd-0x557a36431700: amrecover: make_socket opening socket with family 2
+Sat Jul 16 04:49:41.681937356 2022: pid 16437: thd-0x557a36431700: amrecover: make_socket opening socket with family 2: 3
+Sat Jul 16 04:49:41.690380247 2022: pid 16437: thd-0x557a36431700: amrecover: connect_port: Try  port 516: available - Success
+Sat Jul 16 04:49:41.690645218 2022: pid 16437: thd-0x557a36431700: amrecover: connected to 127.0.0.1:10080
+Sat Jul 16 04:49:41.690667218 2022: pid 16437: thd-0x557a36431700: amrecover: our side is 0.0.0.0:516
+Sat Jul 16 04:49:41.690686348 2022: pid 16437: thd-0x557a36431700: amrecover: try_socksize: send buffer size is 131072
+Sat Jul 16 04:49:41.690699758 2022: pid 16437: thd-0x557a36431700: amrecover: try_socksize: receive buffer size is 131072
+Sat Jul 16 04:49:42.681441316 2022: pid 16437: thd-0x557a3644c800: amrecover: tcpm_send_token: data is still flowing
+Sat Jul 16 04:49:42.692659566 2022: pid 16437: thd-0x557a3644c800: amrecover: security_streaminit(stream=0x557a3645dca0, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:49:42.692690895 2022: pid 16437: thd-0x557a3644c800: amrecover: security_close(handle=0x7f58a0001c50, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:49:42.692702766 2022: pid 16437: thd-0x557a3644c800: amrecover: security_stream_close(0x7f58a0003a20)
+Sat Jul 16 04:49:42.693266430 2022: pid 16437: thd-0x557a3644c800: amrecover: ignoring close stream 1
+Sat Jul 16 04:49:42.693369781 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: FEATURES ffffffff9efefbfffffffffffffff3fffbf71f
+
+
+Sat Jul 16 04:49:42.693576022 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: DATE 2022-07-16
+
+
+Sat Jul 16 04:49:42.693939085 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: SCNF singledrive
+
+
+Sat Jul 16 04:49:48.327825398 2022: pid 16437: thd-0x557a3644c800: amrecover: user command: 'sethost localhost'
+Sat Jul 16 04:49:48.327923458 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: HOST localhost
+
+
+Sat Jul 16 04:49:49.856062262 2022: pid 16437: thd-0x557a3644c800: amrecover: user command: 'setdisk tank'
+Sat Jul 16 04:49:49.856140572 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: DISK tank
+
+
+Sat Jul 16 04:49:49.856706246 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: OISD /
+
+
+Sat Jul 16 04:49:49.862779598 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: OLSD /
+
+
+Sat Jul 16 04:49:49.906412853 2022: pid 16437: thd-0x557a3644c800: amrecover: add_dir_list_item: Adding "2022-07-16-04-47-37" "0" "singledrive:Singledrive-01:1;singledrive:Singledrive-02:1" "1" "/file.150M"
+Sat Jul 16 04:49:49.906555814 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: DLE
+
+
+Sat Jul 16 04:49:51.360437585 2022: pid 16437: thd-0x557a3644c800: amrecover: user command: 'ls'
+Sat Jul 16 04:49:54.912410133 2022: pid 16437: thd-0x557a3644c800: amrecover: user command: 'add file.150M'
+Sat Jul 16 04:49:54.912495314 2022: pid 16437: thd-0x557a3644c800: amrecover: add_glob (file.150M) -> ^file\.150M$
+Sat Jul 16 04:49:54.912528874 2022: pid 16437: thd-0x557a3644c800: amrecover: add_file: Looking for "file\.150M[/]*$"
+Sat Jul 16 04:49:54.912535834 2022: pid 16437: thd-0x557a3644c800: amrecover: add_file: Converted path="file\.150M[/]*$" to tpath_on_disk="/file\.150M[/]*$"
+Sat Jul 16 04:49:54.912545425 2022: pid 16437: thd-0x557a3644c800: amrecover: add_file: Pondering ditem->path=/file.150M
+Sat Jul 16 04:49:54.912606094 2022: pid 16437: thd-0x557a3644c800: amrecover: add_file: (Successful) Added /file.150M
+Sat Jul 16 04:51:38.741126309 2022: pid 16437: thd-0x557a3644c800: amrecover: user command: 'extract'
+Sat Jul 16 04:51:38.741424231 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: TAPE
+
+
+Sat Jul 16 04:51:38.741482311 2022: pid 16437: thd-0x557a3644c800: amrecover: tcpm_send_token: data is still flowing
+Sat Jul 16 04:51:38.742729647 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=(nil), storage='singledrive', label='Singledrive-01', file=-1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742765758 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=0x557a364a5e80, storage='singledrive', label='Singledrive-01', file=1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742777468 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=0x557a364a5e80, storage='singledrive', label='Singledrive-02', file=-1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742786868 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=0x557a364a5e80, storage='singledrive', label='Singledrive-02', file=1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742831838 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=(nil), storage='singledrive', label='Singledrive-01', file=-1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742843228 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=0x557a364a5f30, storage='singledrive', label='Singledrive-01', file=1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742851518 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=0x557a364a5f30, storage='singledrive', label='Singledrive-02', file=-1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742859968 2022: pid 16437: thd-0x557a3644c800: amrecover: append_to_tapelist(tapelist=0x557a364a5f30, storage='singledrive', label='Singledrive-02', file=1, partnum=-1,  isafile=0)
+Sat Jul 16 04:51:38.742877758 2022: pid 16437: thd-0x557a3644c800: amrecover: Requesting tape Singledrive-01 from user
+Sat Jul 16 04:51:43.085263490 2022: pid 16437: thd-0x557a3644c800: amrecover: User prompt: 'Continue [?/Y/n/s/d]? '; response: ''
+Sat Jul 16 04:51:43.085369211 2022: pid 16437: thd-0x557a3644c800: amrecover: security_getdriver(name=bsdtcp) returns 0x7f58a63f0f80
+Sat Jul 16 04:51:43.085617233 2022: pid 16437: thd-0x557a364518c0: amrecover: security_handleinit(handle=0x7f58a000ce90, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:51:43.085984034 2022: pid 16437: thd-0x557a364518c0: amrecover: security_streaminit(stream=0x7f58a000e8e0, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:51:43.086267376 2022: pid 16437: thd-0x557a364518c0: amrecover: make_socket opening socket with family 2
+Sat Jul 16 04:51:43.086313106 2022: pid 16437: thd-0x557a364518c0: amrecover: make_socket opening socket with family 2: 6
+Sat Jul 16 04:51:43.095047614 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_port: Try  port 516: available - Success
+Sat Jul 16 04:51:43.095167215 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_portrange: Connect from 0.0.0.0:516 failed: Cannot assign requested address
+Sat Jul 16 04:51:43.095177005 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_portrange: connect to 127.0.0.1:10080 failed: Cannot assign requested address
+Sat Jul 16 04:51:43.095281794 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_port: Skip port 512: owned by exec.
+Sat Jul 16 04:51:43.095317915 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_port: Skip port 513: owned by login.
+Sat Jul 16 04:51:43.095350195 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_port: Skip port 514: owned by shell.
+Sat Jul 16 04:51:43.095381525 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_port: Skip port 515: owned by printer.
+Sat Jul 16 04:51:43.095466736 2022: pid 16437: thd-0x557a364518c0: amrecover: make_socket opening socket with family 2
+Sat Jul 16 04:51:43.095489156 2022: pid 16437: thd-0x557a364518c0: amrecover: make_socket opening socket with family 2: 6
+Sat Jul 16 04:51:43.103451089 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_port: Try  port 516: available - Success
+Sat Jul 16 04:51:43.103545990 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_portrange: Connect from 0.0.0.0:516 failed: Cannot assign requested address
+Sat Jul 16 04:51:43.103556020 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_portrange: connect to 127.0.0.1:10080 failed: Cannot assign requested address
+Sat Jul 16 04:51:43.103715901 2022: pid 16437: thd-0x557a364518c0: amrecover: make_socket opening socket with family 2
+Sat Jul 16 04:51:43.103742131 2022: pid 16437: thd-0x557a364518c0: amrecover: make_socket opening socket with family 2: 6
+Sat Jul 16 04:51:43.110683458 2022: pid 16437: thd-0x557a364518c0: amrecover: connect_port: Try  port 517: available - Success
+Sat Jul 16 04:51:43.111419792 2022: pid 16437: thd-0x557a364518c0: amrecover: connected to 127.0.0.1:10080
+Sat Jul 16 04:51:43.111442292 2022: pid 16437: thd-0x557a364518c0: amrecover: our side is 0.0.0.0:517
+Sat Jul 16 04:51:43.111458032 2022: pid 16437: thd-0x557a364518c0: amrecover: try_socksize: send buffer size is 131072
+Sat Jul 16 04:51:43.111467002 2022: pid 16437: thd-0x557a364518c0: amrecover: try_socksize: receive buffer size is 131072
+Sat Jul 16 04:51:44.088037913 2022: pid 16437: thd-0x557a3644c800: amrecover: tcpm_send_token: data is still flowing
+Sat Jul 16 04:51:44.370907763 2022: pid 16437: thd-0x557a3644c800: amrecover: security_streaminit(stream=0x557a364a6f10, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:51:44.370938323 2022: pid 16437: thd-0x557a3644c800: amrecover: amidxtaped_streams[0].fd = 0x557a364a6f10
+Sat Jul 16 04:51:44.370971863 2022: pid 16437: thd-0x557a3644c800: amrecover: security_streaminit(stream=0x557a364aefb0, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:51:44.370982782 2022: pid 16437: thd-0x557a3644c800: amrecover: amidxtaped_streams[1].fd = 0x557a364aefb0
+Sat Jul 16 04:51:44.371019712 2022: pid 16437: thd-0x557a3644c800: amrecover: security_streaminit(stream=0x557a364b7050, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:51:44.371030683 2022: pid 16437: thd-0x557a3644c800: amrecover: amidxtaped_streams[2].fd = 0x557a364b7050
+Sat Jul 16 04:51:44.371039933 2022: pid 16437: thd-0x557a3644c800: amrecover: security_close(handle=0x7f58a000ce90, driver=0x7f58a63f0f80 (BSDTCP))
+Sat Jul 16 04:51:44.371048723 2022: pid 16437: thd-0x557a3644c800: amrecover: security_stream_close(0x7f58a000e8e0)
+Sat Jul 16 04:51:44.371103123 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: FEATURES=ffffffff9efefbfffffffffffffff3fffbf71f
+
+Sat Jul 16 04:51:44.371380895 2022: pid 16437: thd-0x557a3644c800: amrecover: ignoring close stream 2
+Sat Jul 16 04:51:44.371717936 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: CONFIG=singledrive
+
+Sat Jul 16 04:51:44.371775027 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: LABEL=singledrive:Singledrive-01:1;singledrive:Singledrive-02:1
+
+Sat Jul 16 04:51:44.371797697 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: FSF=1
+
+Sat Jul 16 04:51:44.371811427 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: HEADER
+
+Sat Jul 16 04:51:44.371823597 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: DEVICE=chg-single:tape:/dev/st0
+
+Sat Jul 16 04:51:44.371836257 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: HOST=^localhost$
+
+Sat Jul 16 04:51:44.371847907 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: DISK=^tank$
+
+Sat Jul 16 04:51:44.371859867 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: DATESTAMP=20220716044737
+
+Sat Jul 16 04:51:44.371871637 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: END
+
+Sat Jul 16 04:51:44.737320750 2022: pid 16437: thd-0x557a3644c800: amrecover: get amidxtaped line: HEADER-SEND-SIZE 591
+Sat Jul 16 04:51:44.737344770 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: HEADER-READY
+
+Sat Jul 16 04:51:44.737542761 2022: pid 16437: thd-0x557a3644c800: amrecover: read header 591 => 591 (591)
+Sat Jul 16 04:51:48.754200304 2022: pid 16437: thd-0x557a3644c800: amrecover: User prompt: 'Continue [?/Y/n]? '; response: ''
+Sat Jul 16 04:51:48.754324254 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: HEADER-DONE
+
+Sat Jul 16 04:51:48.754946728 2022: pid 16437: thd-0x557a3644c800: amrecover: get amidxtaped line: STATE-SEND
+Sat Jul 16 04:51:48.754963438 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: STATE-READY
+
+Sat Jul 16 04:51:48.755465391 2022: pid 16437: thd-0x557a3644c800: amrecover: security_stream_seterr(0x557a364b7050, EOF)
+Sat Jul 16 04:51:48.755479861 2022: pid 16437: thd-0x557a3644c800: amrecover: security_stream_close(0x557a364b7050)
+Sat Jul 16 04:51:48.755547051 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: STATE-DONE
+
+Sat Jul 16 04:51:48.755796402 2022: pid 16437: thd-0x557a3644c800: amrecover: get amidxtaped line: USE-DAR YES
+Sat Jul 16 04:51:48.755809733 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: USE-DAR NO
+
+Sat Jul 16 04:51:48.755864553 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: AVAIL-DATAPATH AMANDA
+
+Sat Jul 16 04:51:48.756549047 2022: pid 16437: thd-0x557a3644c800: amrecover: get amidxtaped line: USE-DATAPATH AMANDA
+Sat Jul 16 04:51:48.756560307 2022: pid 16437: thd-0x557a3644c800: amrecover: Using AMANDA data-path
+Sat Jul 16 04:51:48.757176960 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: DATAPATH-OK
+
+Sat Jul 16 04:51:48.757274040 2022: pid 18886: thd-0x557a3644c800: amrecover: Exec'ing /usr/bin/tar with arguments:
+Sat Jul 16 04:51:48.757305371 2022: pid 18886: thd-0x557a3644c800: amrecover: 	tar
+Sat Jul 16 04:51:48.757311001 2022: pid 18886: thd-0x557a3644c800: amrecover: 	--ignore-zeros
+Sat Jul 16 04:51:48.757315771 2022: pid 18886: thd-0x557a3644c800: amrecover: 	--numeric-owner
+Sat Jul 16 04:51:48.757320291 2022: pid 18886: thd-0x557a3644c800: amrecover: 	-xpGvf
+Sat Jul 16 04:51:48.757324881 2022: pid 18886: thd-0x557a3644c800: amrecover: 	-
+Sat Jul 16 04:51:48.757329091 2022: pid 18886: thd-0x557a3644c800: amrecover: 	./file.150M
+Sat Jul 16 04:51:48.757548242 2022: pid 16437: thd-0x557a3644c800: amrecover: get amidxtaped line: DATA-SEND
+Sat Jul 16 04:51:48.757562882 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: DATA-READY
+
+Sat Jul 16 04:51:49.665186390 2022: pid 16437: thd-0x557a3644c800: amrecover: get amidxtaped line: MESSAGE Source Volume 'Singledrive-02' not found
+Sat Jul 16 04:51:49.665249100 2022: pid 16437: thd-0x557a3644c800: amrecover: get amidxtaped line: FEEDME Singledrive-02
+Sat Jul 16 04:51:49.665269540 2022: pid 16437: thd-0x557a3644c800: amrecover: Requesting tape Singledrive-02 from user
+Sat Jul 16 04:52:08.032040622 2022: pid 16437: thd-0x557a3644c800: amrecover: User prompt: 'Continue [?/Y/n/d]? '; response: ''
+Sat Jul 16 04:52:08.032393304 2022: pid 16437: thd-0x557a3644c800: amrecover: send_to_tape_server: TAPE chg-single:tape:/dev/st0
+
+Sat Jul 16 04:52:08.032455984 2022: pid 16437: thd-0x557a3644c800: amrecover: tcpm_send_token: data is still flowing
+Sat Jul 16 04:52:38.491869021 2022: pid 16437: thd-0x557a3644c800: amrecover: sending: QUIT
+
+
+Sat Jul 16 04:52:38.492108283 2022: pid 16437: thd-0x557a3644c800: amrecover: tcpm_send_token: data is still flowing
