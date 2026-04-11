@@ -10,8 +10,8 @@ All issues below here refer to Amanda v3.5.x built [from source](https://github.
 
 ## Issues
 
-  - ❌ [amrecover hangs during restore](issue-amrecover-hang.md)
-  - ❌ [slow recovery from large backups](issue-int-max.md)
+  - ❌ [amrecover hangs during tape change](issue-amrecover-hang.md)
+  - ❌ [failed recovery from DLE greater than 1TiB](issue-int-max.md)
   - ❌ [drive polled every 10 seconds](issue-drive-polling.md)
   - ✔ [active tapes overwritten](issue-tapes-overwritten.md)
 

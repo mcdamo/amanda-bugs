@@ -1,4 +1,4 @@
-# amrecover hangs during restore
+# amrecover hangs during tape change
 
 In a singledrive configuration with a backup that spans tapes, amrecover will hang after asking for the next tape.
 

@@ -1,6 +1,6 @@
-# Slow recover from large backups
+# Failed recovery from DLE greater than 1TiB
 
-Recovery of files beyond 1TiB in a backup will either fail completely or revert to slow restore that scans the entire tar/tape.
+Recovery of files beyond 1TiB in a DLE will fail completely or under certain circumstances will revert to slow restore that scans the entire tar/tape.
 
 Reported [Issue #156](https://github.com/zmanda/amanda/issues/156).
 
