@@ -8,7 +8,8 @@ Reported as [Issue #181](https://github.com/zmanda/amanda/issues/181).
 
   - ❌ [Source 3_5](https://github.com/zmanda/amanda/tree/3_5)
   - ❌ Ubuntu-20.04 v3.5.1
-  - ❌ Ubuntu-22.04 v3.5.1
+  - ❌ Ubuntu-22.04 [v3.5.1-8ubuntu1](https://packages.ubuntu.com/jammy/amanda-server)
+  - ❌ Ubuntu-24.04 [v3.5.1-11.1build6](https://packages.ubuntu.com/noble/amanda-server)
 
 
 ## Test

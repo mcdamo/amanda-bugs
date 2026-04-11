@@ -8,7 +8,8 @@ Reported [Issue #156](https://github.com/zmanda/amanda/issues/156).
 
   - ❌ [Source 3_5](https://github.com/zmanda/amanda/tree/3_5)
   - ❌ Ubuntu-20.04 amanda v3.5.1
-  - ❌ Ubuntu-22.04 amanda v3.5.1
+  - ❌ Ubuntu-22.04 [v3.5.1-8ubuntu1](https://packages.ubuntu.com/jammy/amanda-server)
+  - ❌ Ubuntu-24.04 [v3.5.1-11.1build6](https://packages.ubuntu.com/noble/amanda-server)
 
 ## Test
 
@@ -18,28 +19,37 @@ Use the [intmax](config/intmax/) setup to create a large enough backup to trigge
 
 ### Results
 
-Confirm in the amgtar log that `file1024.1g` starts after 2^31 blocks:
+Confirm in the amgtar log that `file1026.1g` starts after 2^31 blocks:
 
-Log file in `amanda/client/intmax/amgtar.*.debug`
-
-```
-...
-amgtar: recover_dump_state_file: 2143290366 /file1022.1g
-amgtar: recover_dump_state_file: 2145387519 /file1023.1g
-amgtar: recover_dump_state_file: 2147484672 /file1024.1g
-...
-```
-
-Attempt to recover `file1023.1g` succeeds and attempt to recover `file1024.1g` fails:
+State file in `/amanda/intmax/state/index/localhost/tank/*.stage.gz`
 
 ```
 ...
+2143290366 /file1023.1g
+2145387519 /file1024.1g
+2147484672 /file1025.1g
+2149581825 /file1026.1g
+...
+```
+
+Recover `file1023.1g` succeeds:
+
+```
+amrecover> add file1023.1g
+Added file /file1023.1g
+amrecover> extract
+
 Restoring files into directory /mnt/tank/amanda
 Continue [?/Y/n]? 
 ./file1023.1g
-1048576 kb 
-amrecover> add file1024.1g
-Added file /file1024.1g
+1048576 kb
+```
+
+Attempt to recover `file1026.1g` fails:
+
+```
+amrecover> add file1026.1g
+Added file /file1026.1g
 amrecover> extract
 
 Extracting files using tape drive chg-disk:/mnt/tank/amanda/intmax/vtapes on host localhost.
@@ -52,7 +62,7 @@ Restoring files into directory /mnt/tank/amanda
 Continue [?/Y/n]? 
 
 /usr/local/bin/gtar: This does not look like a tar archive
-/usr/local/bin/gtar: ./file1024.1g: Not found in archive
+/usr/local/bin/gtar: ./file1026.1g: Not found in archive
 /usr/local/bin/gtar: Exiting with failure status due to previous errors
 ERROR /usr/local/bin/gtar exited with status 2: see /tmp/amanda/client/intmax/amgtar.debug
 Extractor child exited with status 1
